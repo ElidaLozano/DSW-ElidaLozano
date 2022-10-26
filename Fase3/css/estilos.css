@@ -1,19 +1,20 @@
 header{
-    background-color: blueviolet;
-    color: black;
+    background-color:#FAF7F0;
+    color: blue;
     padding: 20px;
 }
 nav{
-    background-color: aqua;
-
+    background-color:#CDFCF6;
+    
 }
 section{
     display: grid;
+    background-color: rgb(218, 183, 159);
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 article{
-    background-color: beige;
-    grid-column: 1/4 ;
+    background-color: #BCCEF8;
+    grid-column: 1/4;
 }
 aside{
     background-color: aquamarine;
@@ -21,7 +22,7 @@ aside{
     grid-column: 4/5;
 }
 footer{
-    background-color: blueviolet;
+    background-color: rgb(157, 105, 206);
     padding: 30px;
 }
 .menu{
@@ -38,7 +39,7 @@ footer{
 
 }
 .menu li{
-    background-color: black;
+    background-color: rgb(115, 128, 118);
     color: #fff;
     text-decoration: none;
     padding: 20px 80px ;
